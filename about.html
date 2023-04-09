@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class-40</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Rye&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- header part start -->
+  <header>
+    <div class="container">
+      <p>Welcome To Our Organsio Store.</p>
+    </div>
+  </header>
+  <!-- header part end -->
+
+  <!-- nav part start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary menu_bg">
+      <div class="container">
+        <a class="navbar-brand" href="#">Organic</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html" style="font-weight: 600;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="access.html">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categ.html">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="frequent.html">Faqs</a>
+            </li>
+          </ul>
+          <div class="user d-none d-xxl-block" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <!-- Button trigger modal -->
+            <!-- <button type="button" class="btn btn-primary">
+              Launch demo modal
+            </button> -->
+            <!-- Modal -->
+            <i class="fa-regular fa-user"></i>
+            <div class="note">
+              <p>3</p>
+            </div>
+          </div> 
+          <div class="close d-none d-xxl-block">
+            <input type="text" class="input_one">
+            <i class="fa-solid fa-magnifying-glass search"></i>
+          </div>                     
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">List Of Chosen Products</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p><img src="images/category-menu2.png" alt=""> <span style="margin-bottom: 20px;">Malta has been selected</span></p>                
+              <p><img src="images/category-menu3.png" alt=""> <span style="margin-bottom: 20px;">Tomato has been selected</span></p>                
+              <p><img src="images/category-menu6.png" alt=""> <span style="margin-bottom: 20px;">Lemon has been selected</span></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  <!-- nav part end -->
+
+  <!-- banFour part start -->
+  <section id="banFour">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>About Us</h2>
+          <p>Home-about us</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banFour part end -->
+
+  <!-- afew part start -->
+  <section id="afew">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-5 afew_left">
+          <img src="images/afew.png" class="w-100" alt="afew">
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-6 afew_right">
+          <h4>A Few Words About Us</h4>
+            <h2>A shop for good people</h2>
+            <h2>by good people</h2>
+            <p>Buy natural, sustainable and chemicalfree products from local sellers across the country.</p>
+            <p>We are a strong community of 100,000+ customers and 600+ sellers who aspire to be good, do good, and spread goodness. We 
+              are a democratic, self-sustaining, two-sided marketplace which thrives on trust and is built on community and quality 
+              content.</p>
+            <div class="afew_down">
+              <div class="afew_image">
+                <img src="images/afew_small.png" alt="afew_small">
+              </div>
+              <div class="afew_text">
+                <h4 style="color: #282828;">Phillip William</h4>
+                <p style="margin-top: -5px;">Founder</p>
+              </div>
+            </div>        
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- afew part end -->
+
+  <!-- wave part start -->
+  <section id="wave">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="wave_main">
+            <div class="row">
+              <div class="col-lg-3 col-sm-6 col-md-6 pt-5">
+                <div class="wave_item" style="margin-left: 24px;">
+                  <div class="wave_image">
+                    <div class="wave_inner">
+                      <img src="images/wave1.png" alt="wave1">
+                    </div>
+                  </div>
+                  <div class="wave_text text-center">
+                    <h4>100% Natural</h4>
+                    <p>Donec sollicitudin molestie</p>
+                    <p>malesuada. Lorem ipsum dolor sit</p>
+                    <p>amet,consectetur.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-md-6 pt-5">
+                <div class="wave_item">
+                  <div class="wave_image" style="width: 216px;height: 216px;transform: rotate(-6.91deg);">
+                    <div class="wave_inner" style="width: 191px;height: 191px;">
+                      <img src="images/wave2.png" style="transform: translate(-50%, -50%) rotate(6.91deg);" alt="wave2">
+                    </div>
+                  </div>
+                  <div class="wave_text text-center">
+                    <h4>Fresh Vegetables</h4>
+                    <p>Donec sollicitudin molestie</p>
+                    <p>malesuada. Lorem ipsum dolor sit</p>
+                    <p>amet,consectetur.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-md-6 pt-5">
+                <div class="wave_item">
+                  <div class="wave_image" style="transform: rotate(17.09deg);">
+                    <div class="wave_inner">
+                      <img src="images/wave3.png" style="transform: translate(-50%, -50%) rotate(-17.09deg);" alt="wave3">
+                    </div>
+                  </div>
+                  <div class="wave_text text-center">
+                    <h4>Organic Farming</h4>
+                    <p>Donec sollicitudin molestie</p>
+                    <p>malesuada. Lorem ipsum dolor sit</p>
+                    <p>amet,consectetur.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-md-6 pt-5">
+                <div class="wave_item" style="margin-right: 24px;">
+                  <div class="wave_image" style="transform: rotate(77.07deg);">
+                    <div class="wave_inner">
+                      <img src="images/wave4.png" style="transform: translate(-50%, -50%) rotate(-77.07deg);" alt="wave4">
+                    </div>
+                  </div>
+                  <div class="wave_text text-center" style="margin-top: 70px;">
+                    <h4>Super Healthy</h4>
+                    <p>Donec sollicitudin molestie</p>
+                    <p>malesuada. Lorem ipsum dolor sit</p>
+                    <p>amet,consectetur.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- wave part end -->
+
+  <!-- different part start -->
+  <section id="different">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <h4>Why Choose Us</h4>
+          <h2>What makes us</h2>
+          <h2>different</h2>
+          <p style="color: #676767;width: 100%;">Buy natural, sustainable and chemicalfree products from local sellers across the country.</p>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="d-flex align-items-start">
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <button class="nav-link nav_btn active" id="v-pills-home7-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home7" type="button" 
+              role="tab" aria-controls="v-pills-home7" aria-selected="true">100% Organic</button>
+              <button class="nav-link nav_btn" id="v-pills-profile7-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile7" type="button" 
+              role="tab" aria-controls="v-pills-profile7" aria-selected="false">Modern Farm</button>
+              <button class="nav-link nav_btn" id="v-pills-messages7-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages7" type="button" 
+              role="tab" aria-controls="v-pills-messages7" aria-selected="false">Alway Fresh</button>
+              <button class="nav-link nav_btn" id="v-pills-settings7-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings7" type="button" 
+              role="tab" aria-controls="v-pills-settings7" aria-selected="false">Expert Team Member</button>
+            </div>           
+          </div>          
+        </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home7" role="tabpanel" aria-labelledby="v-pills-home7-tab" tabindex="0">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h4>100% Organic</h4>
+                  <h3>What makes us different</h3>
+                  <p style="padding-top: 10px;">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna                     
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.                    
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  <ul>
+                    <li><p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></li>                                              
+                    <li><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></li>
+                    <li><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-profile7" role="tabpanel" aria-labelledby="v-pills-profile7-tab" tabindex="0">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h4>Modern Farm</h4>
+                  <h3>What makes us different</h3>
+                  <p style="padding-top: 10px;">adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna Consectetur                     
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.                    
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  <ul>                                                                 
+                    <li><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></li>
+                    <li><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></li>
+                    <li><p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-messages7" role="tabpanel" aria-labelledby="v-pills-messages7-tab" tabindex="0">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h4>Alway Fresh</h4>
+                  <h3>What makes us different</h3>
+                  <p style="padding-top: 10px;">elit, sed do eiusmod tempor incididunt ut labore et dolore magna Consectetur adipiscing                    
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.                    
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  <ul>                                                                                     
+                    <li><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></li>
+                    <li><p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></li>
+                    <li><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-settings7" role="tabpanel" aria-labelledby="v-pills-settings7-tab" tabindex="0">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h4>Expert Team Member</h4>
+                  <h3>What makes us different</h3>
+                  <p style="padding-top: 10px;">sed do eiusmod tempor incididunt ut labore et dolore magna Consectetur adipiscing elit,                     
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.                    
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  <ul>
+                    <li><p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></li>                                              
+                    <li><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></li>
+                    <li><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- different part end -->
+
+  <!-- testiTwo part start -->
+    <section id="testiTwo">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="trp_left">
+              <h2>Testimonial</h2>
+            </div>          
+          </div>
+          <div class="col-lg-6">
+            <div class="trp_right text-end">
+              <a href="#">See all</a>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 pt-5">
+            <div class="testiTwo_left">
+              <img src="images/testi_icon1.png" alt="testi_icon1">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit tortor eget felis porttitor volutpat. 
+                Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Mauris blandit aliquet elit, eget tincidunt nibh 
+                pulvinar a. </p>
+                <div class="testiTwo_down">
+                  <div class="testiTwo_image">
+                    <img src="images/testi_small.png" alt="testi_small">
+                  </div>
+                  <div class="testiTwo_text">
+                    <h4>Awlad Hossain</h4>
+                    <p>UI Designer</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-6 pt-5">
+            <div class="testiTwo_item">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit tortor eget felis porttitor volutpat. </p>
+              <div class="testiTwo_inner">
+                <div class="testiTwo_down" style="padding-top: 23px;">
+                  <div class="testiTwo_image">
+                    <img src="images/testi21.png" alt="testi21">
+                  </div>
+                  <div class="testiTwo_text">
+                    <h4>Flora smith</h4>
+                    <p>Web Designer</p>
+                  </div>              
+                </div>
+                <div class="testiTwo_image pt-5">
+                  <img src="images/testi_icon2.png" alt="testi_icon2">
+                </div>
+              </div>              
+            </div>
+            <div class="testiTwo_item mt-4">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit tortor eget felis porttitor volutpat. </p>
+              <div class="testiTwo_inner">
+                <div class="testiTwo_down" style="padding-top: 23px;">
+                  <div class="testiTwo_image">
+                    <img src="images/testi22.png" alt="testi22">
+                  </div>
+                  <div class="testiTwo_text">
+                    <h4>Emma watson</h4>
+                    <p>CEO</p>
+                  </div>              
+                </div>
+                <div class="testiTwo_image pt-5">
+                  <img src="images/testi_icon2.png" alt="testi_icon2">
+                </div>
+              </div>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- testiTwo part end -->
+  
+  <!-- latBlog part start -->
+    <section id="latBlog">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>Latest Blog</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 pt-5">
+            <div class="latBlog_item">
+              <div class="latBlog_image">
+                <img src="images/lb1.png" class="w-100" alt="lb1">
+              </div>
+              <div class="latBlog_inner">
+                <div class="latBlog_text pt-4">
+                  <i class="fa-regular fa-user"></i>
+                  <a href="#">By admin</a>
+                  <i class="fa-solid fa-tag lb_icon"></i>
+                  <a href="#">Vegetable</a>
+                  <h3 class="lb_h3">How and when to replace</h3>
+                  <h3>brake rotors</h3>
+                </div>
+                <div class="latBlog_down">
+                  <i class="fa-regular fa-calendar"></i>
+                  <span>June 24, 2021</span>
+                  <a href="#" class="lb_anchor">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 pt-5">
+            <div class="latBlog_item">
+              <div class="latBlog_image">
+                <img src="images/lb2.png" class="w-100" alt="lb2">
+              </div>
+              <div class="latBlog_inner">
+                <div class="latBlog_text pt-4">
+                  <i class="fa-regular fa-user"></i>
+                  <a href="#">By admin</a>
+                  <i class="fa-solid fa-tag lb_icon"></i>
+                  <a href="#">Vegetable</a>
+                  <h3 class="lb_h3">How and when to replace</h3>
+                  <h3>brake rotors</h3>
+                </div>
+                <div class="latBlog_down">
+                  <i class="fa-regular fa-calendar"></i>
+                  <span>June 24, 2021</span>
+                  <a href="#" class="lb_anchor">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 pt-5">
+            <div class="latBlog_item">
+              <div class="latBlog_image">
+                <img src="images/lb3.png" class="w-100" alt="lb3">
+              </div>
+              <div class="latBlog_inner">
+                <div class="latBlog_text pt-4">
+                  <i class="fa-regular fa-user"></i>
+                  <a href="#">By admin</a>
+                  <i class="fa-solid fa-tag lb_icon"></i>
+                  <a href="#">Vegetable</a>
+                  <h3 class="lb_h3">How and when to replace</h3>
+                  <h3>brake rotors</h3>
+                </div>
+                <div class="latBlog_down">
+                  <i class="fa-regular fa-calendar"></i>
+                  <span>June 24, 2021</span>
+                  <a href="#" class="lb_anchor">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- latBlog part end -->
+
+  <!-- footer part start -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 col-md-6 pt-5 ps-5">
+          <div class="footer_one">
+            <a href="#"><h6>Organic</h6></a>                       
+          </div>
+          <div class="footer_four">
+            <div class="foot_icon_text">
+              <div class="footer_icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="footer_text">
+                <p>Call Us 24/7</p>
+                <h4>(1800)-1088-88</h4>
+              </div>
+            </div>
+            <div class="foot_icon_text">
+              <div class="footer_icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="footer_text">
+                <p>Address</p>
+                <h4>100 Mcevoy st, alexandria</h4>
+                <h4>Nsw 2010, Australia</h4>
+              </div>
+            </div>
+          </div>            
+        </div>
+        <div class="col-lg-2 col-sm-6 col-md-6 pt-5">
+          <div class="footer_two">
+            <h4>Customer Service</h4>
+            <ul>
+              <li><p>Contact us</p></li>
+              <li><p>Track your order</p></li>
+              <li><p>Return policy</p></li>
+              <li><p>Delivery Information</p></li>
+              <li><p>Help & FAQ</p></li>
+              <li><p style="padding-bottom: 0;">Warranty & Repair</p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-6 col-md-6 pt-5">
+          <div class="footer_two">
+            <h4>Categories</h4>
+            <ul>
+              <li><p>Fruitls & Vegetables</p></li>                  
+              <li><p>Dairy Products</p></li>
+              <li><p>Package Foods</p></li>
+              <li><p>Beverage</p></li>
+              <li><p style="padding-bottom: 0;">Health & Wellness</p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-md-6 pt-5">
+          <div class="footer_three">
+            <h4>Newsletter</h4>
+            <p>Signup and get a voucher of worth $250.00</p>
+            <form action="">
+              <div class="input_block">
+                <input type="email" class="form-control my_input" id="exampleInputEmail1" aria-describedby="emailHelp" 
+                placeholder="Your email address"><button type="submit" class="btn btn-primary my_btn">Send</button> 
+              </div>                            
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer part end -->
+    
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>

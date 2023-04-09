@@ -1,0 +1,91 @@
+
+/* nav part start */
+.navbar-brand{
+    font-family: 'Rye', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #477018 !important;
+}
+.menu_bg{
+    ul{
+        li{           
+            a{
+                font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19px;
+                letter-spacing: 0em;
+                padding: 0 20px !important;
+                color: #222 !important;
+                position: relative;
+                transition: 0.5s;
+                &:hover{
+                    color: #477018 !important;
+                }                
+                &::after{
+                    content: '';
+                    position: absolute;
+                    top: 24px;
+	                left: 20px;
+                    height: 2px;
+                    width: calc(100% - 38px);
+                    background-color: blue;
+                    opacity: 0;
+                    transition: 0.5s;
+                }
+                &:hover::after{
+                    opacity: 1;
+                }
+            }            
+        }
+    }
+}
+.close{
+    position: relative;
+    margin-right: 150px;
+    cursor: pointer;
+}
+.user{
+    margin-right: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.note{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    height: 16px;
+    width: 16px;
+    background-color: #F47606;
+    border-radius: 50%;
+    p{
+        color: #fff;
+        font-size: 12px;
+        margin-top: -6px;
+        margin-left: 4px;
+    }
+}
+.input_one{
+    height: 40px;
+    width: 0;
+    border: 2px solid transparent;
+    transition: 0.5s;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    background-color: transparent;
+}
+.menu_icon{
+    width: 150px;
+    border: 2px solid green;
+}
+.search{
+    position: absolute;
+    top: -8px;
+    right: 0;
+    z-index: 99;
+}
+/* nav part end */

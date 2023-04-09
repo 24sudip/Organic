@@ -1,0 +1,38 @@
+
+/* product part start */
+#product{
+    padding-top: 130px;
+    .nav_btn{
+        width: 212px;
+        text-align: center;
+    }
+    .nav-pills .nav-link{
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+        color: #676767;
+        transition: all linear 0.5s;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: #F47606;
+        background-color: transparent;
+    }
+}
+.product_text{
+    p{
+        font-weight: 500;
+    }
+}
+.product_icon{
+    i{
+        color: #FFAE00;
+        padding-top: 30px;
+    }
+}
+.product_image{
+    height: 303px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+/* product part end */

@@ -1,0 +1,86 @@
+
+/* discover part start */
+#discover{
+    padding-top: 130px;
+    .nav-pills{
+        width: 440px;
+    }
+    .nav-pills .nav-link{
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        text-decoration: none;
+        transition: 0.5s;
+        color: #282828;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: #F47606;
+        text-decoration: underline;
+        background-color: transparent;
+    }
+}
+.discover_item_outer{
+    position: relative;
+    &:hover .discover_overlay{
+        transform: scale(1);
+    }
+}
+.discover_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    transform: scale(0);
+    transition: 0.5s;
+}
+.discover_overlay_icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    i{
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        text-align: center;
+        display: inline-block;
+        margin: 0 4px;
+        color: #F47606;
+        background-color: #fff;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+}
+.discover_item{
+    display: flex;
+    background-color: #FAFAFA;
+}
+.discover_image{
+    width: 47%;
+    height: 194px;
+    overflow: hidden;
+}
+.discover_text{
+    width: 53%;
+    p{
+        padding-top: 60px;
+        font-weight: 600;
+    }
+    .trending_icon{
+        text-align: left;
+        margin-top: -2px;
+    }
+    h4{
+        padding-top: 5px;
+    }
+    span{
+        color: #A9A9A9;
+        text-decoration: line-through;
+    }
+}
+/* discover part end */

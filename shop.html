@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class-40</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Rye&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- header part start -->
+  <header>
+    <div class="container">
+      <p>Welcome To Our Organsio Store.</p>
+    </div>
+  </header>
+  <!-- header part end -->
+
+  <!-- nav part start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary menu_bg">
+      <div class="container">
+        <a class="navbar-brand" href="#">Organic</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html" style="font-weight: 600;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="access.html">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categ.html">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="frequent.html">Faqs</a>
+            </li>
+          </ul>
+          <div class="user d-none d-xxl-block" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <!-- Button trigger modal -->
+            <!-- <button type="button" class="btn btn-primary">
+              Launch demo modal
+            </button> -->
+            <!-- Modal -->
+            <i class="fa-regular fa-user"></i>
+            <div class="note">
+              <p>3</p>
+            </div>
+          </div> 
+          <div class="close d-none d-xxl-block">
+            <input type="text" class="input_one">
+            <i class="fa-solid fa-magnifying-glass search"></i>
+          </div>                     
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">List Of Chosen Products</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p><img src="images/category-menu2.png" alt=""> <span style="margin-bottom: 20px;">Malta has been selected</span></p>                
+              <p><img src="images/category-menu3.png" alt=""> <span style="margin-bottom: 20px;">Tomato has been selected</span></p>                
+              <p><img src="images/category-menu6.png" alt=""> <span style="margin-bottom: 20px;">Lemon has been selected</span></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  <!-- nav part end -->
+
+  <!-- banFour part start -->
+  <section id="banFour">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Shop Category</h2>
+          <p>Home-Shop Category</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banFour part end -->
+
+  <!-- result part start -->
+  <section id="result">
+    <div class="container">
+      <div class="row d-none d-xxl-block">
+        <div class="col-lg-4">
+          <div class="result_input_out">
+            <form action="">
+              <input type="text" class="result_input" placeholder="Search products">
+              <i class="fa-solid fa-magnifying-glass result_icon1"></i>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="result_head">
+            <div class="result_middle">
+              <span>Showing 1-15 of 30 results</span>
+            </div>
+            <div class="result_icon2">
+              <i class="fa-solid fa-grip-vertical"></i>
+              <i class="fa-solid fa-list" style="color: #C9C9C9;padding-left: 10px;"></i>
+            </div>
+          </div>          
+        </div>
+        <div class="col-lg-3">
+          <div class="result_input_out2">
+            <form action="">
+              <input type="text" class="result_input2" placeholder="Search products">
+              <i class="fa-solid fa-chevron-down result_icon3"></i>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-lg-3">
+          <div class="result_category">
+            <h3>Categories</h3>
+            <ul>
+              <li><p>Beverages (5)</p></li> 
+              <li><p>Butter & Eggs (9)</p></li>
+              <li><p>Dried</p></li>
+              <li><p>Food (6)</p></li>
+              <li><p>Fresh Meat</p></li>
+              <li><p>Fruits (6)</p></li>
+              <li><p>Juice</p></li>
+              <li><p>Vegetables (25)</p></li>
+              <li><p>Meats</p></li>
+              <li><p>Supplements (6)</p></li>
+            </ul>
+          </div>
+          <div class="result_price d-none d-xxl-block">
+            <h3>Price</h3>
+            <ul>
+              <li><p>Range : $50 - $150</p></li>
+            </ul>
+          </div>
+          <div class="result_price2">
+            <h3>Price</h3>
+            <ul>
+              <li><i class="fa-solid fa-star ri"></i>
+                <i class="fa-solid fa-star ri"></i>
+                <i class="fa-solid fa-star ri"></i>
+                <i class="fa-solid fa-star ri"></i>
+                <i class="fa-solid fa-star ri"></i>
+                <span>(5)</span></li>
+              <li><i class="fa-solid fa-star ri"></i>
+                  <i class="fa-solid fa-star ri"></i>
+                  <i class="fa-solid fa-star ri"></i>
+                  <i class="fa-solid fa-star ri"></i>
+                  <i class="fa-solid fa-star ri2"></i>
+                <span>(4)</span></li>
+              <li><i class="fa-solid fa-star ri"></i>
+                  <i class="fa-solid fa-star ri"></i>
+                  <i class="fa-solid fa-star ri"></i>
+                  <i class="fa-solid fa-star ri2"></i>
+                  <i class="fa-solid fa-star ri2"></i>
+                  <span>(3)</span></li>
+              <li><i class="fa-solid fa-star ri"></i>
+                  <i class="fa-solid fa-star ri"></i>
+                  <i class="fa-solid fa-star ri2"></i>
+                  <i class="fa-solid fa-star ri2"></i>
+                  <i class="fa-solid fa-star ri2"></i>
+                  <span>(2)</span></li>
+              <li><i class="fa-solid fa-star ri"></i>
+                  <i class="fa-solid fa-star ri2"></i>
+                  <i class="fa-solid fa-star ri2"></i>
+                  <i class="fa-solid fa-star ri2"></i>
+                  <i class="fa-solid fa-star ri2"></i>
+                  <span>(1)</span></li>
+            </ul>
+          </div>
+          <div class="bs_main">
+            <h3>Best Seller</h3>
+            <div class="bs_item">
+              <div class="bs_image">
+                <img src="images/bs1.png" alt="bs1">
+              </div>
+              <div class="bs_text">
+                <h4>Organic Juice</h4>
+                <div class="bs_icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$50 - $150</p>
+              </div>
+            </div>
+            <div class="bs_item">
+              <div class="bs_image">
+                <img src="images/bs2.png" alt="bs2">
+              </div>
+              <div class="bs_text">
+                <h4>Fresh Vegetable</h4>
+                <div class="bs_icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$50 - $150</p>
+              </div>
+            </div>
+            <div class="bs_item">
+              <div class="bs_image">
+                <img src="images/bs3.png" alt="bs3">
+              </div>
+              <div class="bs_text">
+                <h4>Organic Cabage</h4>
+                <div class="bs_icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$50 - $150</p>
+              </div>
+            </div>
+          </div>
+          <div class="result_tag">
+            <h3>Tags</h3>
+            <a href="#">Apple</a>
+            <a href="#">Bread</a>
+            <a href="#">Cheese</a>
+            <a href="#">Fruits</a>
+            <a href="#">Fish</a>
+            <a href="#">Organic</a>
+            <a href="#">Vegetable</a>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-6 col-sm-6 col-md-4 mb-4">
+              <div class="result_image">
+                <img src="images/strawberry.png" class="w-100" alt="strawberry">
+                <div class="result_icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                  <i class="fa-solid fa-lock"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-6 col-sm-6 col-md-4 mb-4">
+              <div class="result_image">
+                <img src="images/malta.png" class="w-100" alt="malta">
+                <div class="result_icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                  <i class="fa-solid fa-lock"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-6 col-sm-6 col-md-4 mb-4">
+              <div class="result_image">
+                <img src="images/papaya.png" class="w-100" alt="papaya">
+                <div class="result_icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                  <i class="fa-solid fa-lock"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-6 col-sm-6 col-md-4 mb-4">
+              <div class="result_image">
+                <img src="images/orange.png" class="w-100" alt="orange">
+                <div class="result_icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                  <i class="fa-solid fa-lock"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-6 col-sm-6 col-md-4 mb-4">
+              <div class="result_image">
+                <img src="images/small_tomato.png" class="w-100" alt="small_tomato">
+                <div class="result_icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                  <i class="fa-solid fa-lock"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-6 col-sm-6 col-md-4 mb-4">
+              <div class="result_image">
+                <img src="images/cauliflower.png" class="w-100" alt="cauliflower">
+                <div class="result_icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                  <i class="fa-solid fa-lock"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-6 col-sm-6 col-md-4 mb-4">
+              <div class="result_image">
+                <img src="images/brinjal.png" class="w-100" alt="brinjal">
+                <div class="result_icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                  <i class="fa-solid fa-lock"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-6 col-sm-6 col-md-4 mb-4">
+              <div class="result_image">
+                <img src="images/pomegranet.png" class="w-100" alt="pomegranet">
+                <div class="result_icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                  <i class="fa-solid fa-lock"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-6 col-sm-6 col-md-4 mb-4">
+              <div class="result_image">
+                <img src="images/lemon.png" class="w-100" alt="lemon">
+                <div class="result_icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                  <i class="fa-solid fa-lock"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-6 col-sm-6 col-md-4 mb-4">
+              <div class="result_image">
+                <img src="images/custard.png" class="w-100" alt="custard">
+                <div class="result_icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                  <i class="fa-solid fa-lock"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-6 col-sm-6 col-md-4 mb-4">
+              <div class="result_image">
+                <img src="images/green_nashpati.png" class="w-100" style="margin-top: -30px;" alt="green_nashpati">
+                <div class="result_icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                  <i class="fa-solid fa-lock"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-6 col-sm-6 col-md-4 mb-4">
+              <div class="result_image">
+                <img src="images/nashpati.png" class="w-100" style="margin-top: -30px;" alt="nashpati">
+                <div class="result_icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                  <i class="fa-solid fa-lock"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-6 col-sm-6 col-md-4 mb-4">
+              <div class="result_image">
+                <img src="images/brookly.png" class="w-100" alt="brookly">
+                <div class="result_icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                  <i class="fa-solid fa-lock"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-6 col-sm-6 col-md-4 mb-4">
+              <div class="result_image">
+                <img src="images/dragon_fruit.png" class="w-100" style="margin-top: -30px;" alt="dragon_fruit">
+                <div class="result_icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                  <i class="fa-solid fa-lock"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-6 col-sm-6 col-md-4 mb-4">
+              <div class="result_image">
+                <img src="images/bungi.png" class="w-100" style="margin-top: -30px;" alt="bungi">
+                <div class="result_icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                  <i class="fa-solid fa-lock"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div>
+      <div class="row pt-5">
+        <div class="col-lg-9"></div>
+        <div class="col-lg-3 text-end">
+          <a href="#" class="result_a">1</a>
+          <a href="#" class="result_a">2</a>
+          <a href="#" class="result_a"><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- result part end -->
+
+  <!-- footer part start -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 col-md-6 pt-5 ps-5">
+          <div class="footer_one">
+            <a href="#"><h6>Organic</h6></a>                       
+          </div>
+          <div class="footer_four">
+            <div class="foot_icon_text">
+              <div class="footer_icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="footer_text">
+                <p>Call Us 24/7</p>
+                <h4>(1800)-1088-88</h4>
+              </div>
+            </div>
+            <div class="foot_icon_text">
+              <div class="footer_icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="footer_text">
+                <p>Address</p>
+                <h4>100 Mcevoy st, alexandria</h4>
+                <h4>Nsw 2010, Australia</h4>
+              </div>
+            </div>
+          </div>            
+        </div>
+        <div class="col-lg-2 col-sm-6 col-md-6 pt-5">
+          <div class="footer_two">
+            <h4>Customer Service</h4>
+            <ul>
+              <li><p>Contact us</p></li>
+              <li><p>Track your order</p></li>
+              <li><p>Return policy</p></li>
+              <li><p>Delivery Information</p></li>
+              <li><p>Help & FAQ</p></li>
+              <li><p style="padding-bottom: 0;">Warranty & Repair</p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-6 col-md-6 pt-5">
+          <div class="footer_two">
+            <h4>Categories</h4>
+            <ul>
+              <li><p>Fruitls & Vegetables</p></li>                  
+              <li><p>Dairy Products</p></li>
+              <li><p>Package Foods</p></li>
+              <li><p>Beverage</p></li>
+              <li><p style="padding-bottom: 0;">Health & Wellness</p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-md-6 pt-5">
+          <div class="footer_three">
+            <h4>Newsletter</h4>
+            <p>Signup and get a voucher of worth $250.00</p>
+            <form action="">
+              <div class="input_block">
+                <input type="email" class="form-control my_input" id="exampleInputEmail1" aria-describedby="emailHelp" 
+                placeholder="Your email address"><button type="submit" class="btn btn-primary my_btn">Send</button> 
+              </div>                            
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer part end -->
+    
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>

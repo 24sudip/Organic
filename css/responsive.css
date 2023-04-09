@@ -1,0 +1,248 @@
+
+@media (max-width: 575.98px) {
+    .menu_bg ul li a {
+        text-align: center;
+        margin: 10px 0;
+    }
+    .menu_bg ul li a::after{
+        top: 29px;
+    }
+    h1 {
+        color: yellow;
+    }
+    .banner_text h2 {
+        color: yellow;
+    }
+    .banner_text p {
+        color: black;
+    }
+    .sec1{
+        color: transparent;
+    }
+    .access_h1{
+        color: #222;
+    }
+    .second_timer {
+        left: 70px;
+    }
+    .flash_two_timer {        
+        left: 40px;
+    }
+    .product_image{
+        height: 210px;
+    }
+    #result .result_image {
+        height: 200px;
+    }
+    #afew .afew_right{
+        width: auto;
+        order: 1;
+    }
+    #afew .afew_left{
+        order: 2;
+    }
+    #wave::after{
+        display: none;
+    }
+    #wave::before{
+        display: none;
+    }
+    .wave_main{
+        background-position-y: 20px;
+    }
+    #tenders{
+        padding-top: 0;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .menu_bg ul li a {
+        text-align: center;
+        margin: 10px 0;
+    }
+    .menu_bg ul li a::after{
+        top: 29px;
+    }
+    h1 {
+        color: yellow;
+    }
+    .banner_text h2 {
+        color: yellow;
+    }
+    .banner_text p {
+        color: black;
+    }
+    .my_btn {
+        right: -36%;
+    }
+    .access_h1{
+        color: #222;
+    }
+    .flash_two_timer {        
+        left: 76px;
+    }
+    .second_timer {
+        left: 106px;
+    }
+    .product_image{
+        height: 163px;
+    }
+    #result .result_image {
+        height: 244px;
+    }
+    #afew .afew_right{
+        width: auto;
+        order: 1;
+    }
+    #afew .afew_left{
+        order: 2;
+    }
+    #wave::after{
+        display: none;
+    }
+    #wave::before{
+        display: none;
+    }
+    .wave_main{
+        background-position-y: 40px;
+    }
+    #tenders{
+        padding-top: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .menu_bg ul li a {
+        text-align: center;
+        margin: 10px 0;
+    }
+    .menu_bg ul li a::after{
+        top: 29px;
+    }
+    h1 {
+        color: yellow;
+    }
+    .banner_text h2 {
+        color: yellow;
+    }
+    .banner_text p {
+        color: black;
+    }
+    .my_btn {
+        right: -3%;
+    }
+    .access_h1{
+        color: #222;
+    }
+    .product_image{
+        height: 226px;
+    }
+    .latBlog_down .lb_anchor{
+        padding-left: 10px;
+    }
+    #result .result_image {
+        height: 214px;
+    }
+    #afew .afew_right{
+        width: auto;
+        order: 1;
+    }
+    #afew .afew_left{
+        order: 2;
+    }
+    #wave::after{
+        display: none;
+    }
+    #wave::before{
+        display: none;
+    }
+    .wave_main{
+        background-position-y: 40px;
+    }
+    #tenders{
+        padding-top: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .sec1{
+        color: transparent;
+    }
+    #top_rated .nav_btn {
+        width: auto;
+    }
+    #latest .nav_btn {
+        width: auto;
+    }
+    .my_btn {
+        right: -17%;
+    }
+    .ban_image {
+        height: 260px;
+    }
+    .flash_two_timer {        
+        left: 9%;
+    }
+    .second_timer {
+        left: 15%;
+    }
+    .product_image{
+        height: 226px;
+    }
+    .latBlog_down .lb_anchor{
+        padding-left: 10px;
+    }
+    #result .result_image {
+        height: 200px;
+    }
+    #afew .afew_right{
+        width: auto;
+        order: 1;
+    }
+    #afew .afew_left{
+        order: 2;
+    }
+    #wave::after{
+        display: none;
+    }
+    #wave::before{
+        display: none;
+    }
+    .wave_main{
+        background-position-y: 40px;
+    }
+    #different .nav_btn{
+        width: 304px;
+    }
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    #top_rated .nav_btn {
+        width: auto;
+    }
+    #latest .nav_btn {
+        width: auto;
+    }
+    .my_btn {
+        right: 0%;
+    }
+    .latBlog_down .lb_anchor{
+        padding-left: 10px;
+    }
+    #result .result_image {
+        height: 260px;
+    }
+    #wave::after{
+        display: none;
+    }
+    #wave::before{
+        display: none;
+    }
+    .wave_main{
+        background-position-y: 40px;
+    }
+}
+@media (min-width: 1400px) {
+    #wave::after{
+        display: block;
+    }
+    #wave::before{
+        display: block;
+    }
+}
+}

@@ -1,0 +1,69 @@
+
+/* dealWeek part start */
+#dealWeek{
+    padding-top: 130px;
+    .dealWeek_head{
+        position: relative;
+        height: 70px;
+        width: 100%;
+    }
+    .second_timer{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
+    }
+    .flash_two_timer{
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+    }
+    .demo3{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        color: #fff;
+        padding-top: 5px;
+    }
+    .fd9{
+        color: transparent;
+        padding-right: 60px;
+    }
+    .fd10{
+        color: transparent;
+        padding-right: 55px;
+    }
+    .fd11{
+        color: transparent;
+        padding-right: 45px;
+    }
+    .fd12{
+        color: transparent;
+    }
+    .flash_timer_item{
+        color: #fff;
+        text-align: center;
+        margin: 0 15px;
+        background-color: #F47606;
+        padding-top: 30px;
+    }
+    .t_name{
+        font-weight: 700;
+        padding: 0 11px;
+    }
+}
+.dealWeek_main{
+    padding: 85px 0;
+    padding-left: 125px;
+    background: url(../images/deal_week.jpg) no-repeat center / cover;
+    border-radius: 25px;
+    h2{
+        font-family: 'Inter', sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 55px;
+    }
+}
+/* dealWeek part end */

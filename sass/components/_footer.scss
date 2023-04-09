@@ -1,0 +1,80 @@
+
+/* footer part start */
+#footer{
+    padding-top: 80px;
+    padding-bottom: 130px;
+    margin-top: 130px;
+    background-color: #373C33;
+    color: #fff;
+}
+.footer_one{
+    a{
+        color: #fff;
+        h6{
+            font-family: 'Rye', cursive;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 38px;
+            padding-bottom: 20px;
+        }
+    }
+}
+.foot_icon_text{
+    display: flex;
+}
+.footer_icon i{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #477018;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.footer_text{
+    padding-left: 30px;
+    p{
+       padding-top: 5px; 
+    }
+}
+.footer_two{
+    h4{
+        padding-bottom: 40px;
+    }
+    p{
+        padding-bottom: 10px;
+    }
+}
+.footer_three{
+    h4{
+        padding-bottom: 40px;
+    }
+    p{
+        padding-bottom: 26px;
+    }
+}
+.input_block{
+    position: relative;
+}
+.my_btn{
+    position: absolute;
+    top: 0;
+    right: 68px;
+    z-index: 1;
+    background-color: #F47606;
+    border: none;
+    padding: 0 15px;
+    padding-top: 7px;
+    padding-bottom: 12px;
+    margin-right: 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+.my_input{
+    width: 335px;
+    padding-bottom: 10px;
+    padding-top: 7px;
+    padding-left: 10px;
+    display: inline-block;
+}
+/* footer part end */

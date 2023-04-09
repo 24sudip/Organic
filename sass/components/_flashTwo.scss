@@ -1,0 +1,70 @@
+
+/* flash_two part start */
+#flash_two{
+    padding-top: 130px;
+}
+.flash_two_item{
+    background-color: #F3F3F3;
+    position: relative;
+}
+.flash_two_image{
+    background: url(../images/papaya.png) no-repeat center / cover;
+    height: 400px;
+}
+.second_timer{
+    position: absolute;
+    top: 400px;
+    left: 160px;
+    z-index: 2;
+}
+.flash_two_timer{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 130px;
+    z-index: 1;
+}
+.demo{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #F47606;
+    padding-top: 5px;
+}
+.fd5{
+    color: transparent;
+    padding-right: 60px;
+}
+.fd6{
+    color: transparent;
+    padding-right: 55px;
+}
+.fd7{
+    color: transparent;
+    padding-right: 50px;
+}
+.fd8{
+    color: transparent;
+}
+.flash_timer_item{
+    color: #F47606;
+    text-align: center;
+    margin: 0 15px;
+    background-color: #fff;
+    padding-top: 30px;
+}
+.t_name{
+    font-weight: 700;
+    padding: 0 11px;
+}
+.flash_two_text{
+    padding-top: 80px;
+    h3{
+        padding-bottom: 5px;
+    }
+    .a_btn{
+        margin-top: 15px !important;
+        margin-bottom: 30px;
+    }
+}
+/* flash_two part end */

@@ -1,0 +1,109 @@
+
+/* tenders part start */
+#tenders{
+    padding-top: 80px;
+    .nav-pills{
+        width: 1140px;
+        border-bottom: 2px solid #A2A2A2;
+    }
+    .nav-pills .nav-link{
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+        color: #676767;
+        border-bottom: 2px solid transparent;
+        transition: 0.5s;
+        border-radius: 0; 
+    }
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        border-bottom: 2px solid #F47606;
+        color: #F47606;
+        background-color: transparent;
+    }
+    p{
+        color: #676767;
+        width: 441px;
+        padding-top: 30px;
+    }
+    ul.list_one{
+        padding-top: 20px;
+        list-style: disc;
+        padding-left: 15px;
+        li{
+            p{
+                padding: 0;
+                padding-bottom: 10px;
+            }
+        }
+    }
+    .tab_para{
+        width: 100%;
+    }
+}
+.tenders_icon{
+    i{
+        color: #FFC24B;
+    }
+    span{
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #676767;
+    }
+    .tenders1{
+        font-weight: 600;
+    }
+}
+.tenders_a1{
+    padding: 14px 38px;
+    color: #282828 !important;
+    border: 2px solid #A2A2A2;
+    border-radius: 10px;
+    margin-top: 22px;
+}
+.tenders_a2{
+    padding: 15px 33px;
+    color: #fff !important;
+    background-color: #F47606;
+    border-radius: 10px;
+}
+.tenders_a3{
+    padding: 14px 169px;
+    color: #fff !important;
+    background-color: #477018;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.tenders_a4{
+    padding: 13px 23px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #676767 !important;
+    border: 2px solid #A2A2A2;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.icon_para{
+    padding-top: 15px !important;
+    i{
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #fff;
+        background-color: #395185;
+        margin: 0 5px;
+        display: inline-block;
+        border-radius: 10px;
+    }
+}
+.tenders_empty{
+    width: 461px;
+    height: 43px;
+    border-bottom: 2px solid #A2A2A2;
+}
+/* tenders part end */

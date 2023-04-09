@@ -1,0 +1,28 @@
+
+/* feedback part start */
+#feedback{
+    padding-top: 130px;
+    p{
+        color: #6C6C6C;
+    }
+    .trending_icon{
+        text-align: left;
+    }
+}
+.feedback_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.feedback_left{
+    display: flex;
+}
+.feedback_text{
+    padding-left: 27px;
+    h4{
+        margin-top: -2px;
+    }
+    p{
+        margin-top: -5px;
+    }
+}
+/* feedback part end */

@@ -1,0 +1,1447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class-40</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Rye&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+      #footer p{
+        color: #6C6C6C;
+      }
+    </style>
+</head>
+<body>
+  <!-- header part start -->
+  <header>
+    <div class="container">
+      <p>Welcome To Our Organsio Store.</p>
+    </div>
+  </header>
+  <!-- header part end -->
+
+  <!-- nav part start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary menu_bg">
+      <div class="container">
+        <a class="navbar-brand" href="#">Organic</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html" style="font-weight: 600;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="access.html">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categ.html">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="frequent.html">Faqs</a>
+            </li>
+          </ul>
+          <div class="user d-none d-xxl-block" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <!-- Button trigger modal -->
+            <!-- <button type="button" class="btn btn-primary">
+              Launch demo modal
+            </button> -->
+            <!-- Modal -->
+            <i class="fa-regular fa-user"></i>
+            <div class="note">
+              <p>3</p>
+            </div>
+          </div> 
+          <div class="close d-none d-xxl-block">
+            <input type="text" class="input_one">
+            <i class="fa-solid fa-magnifying-glass search"></i>
+          </div>                     
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">List Of Chosen Products</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p><img src="images/category-menu2.png" alt=""> <span style="margin-bottom: 20px;">Malta has been selected</span></p>                
+              <p><img src="images/category-menu3.png" alt=""> <span style="margin-bottom: 20px;">Tomato has been selected</span></p>                
+              <p><img src="images/category-menu6.png" alt=""> <span style="margin-bottom: 20px;">Lemon has been selected</span></p>                
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  <!-- nav part end -->
+
+  <!-- banner part start -->
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">                        
+            <div class="banner_text text-start">
+              <h1>Organic flavors</h1>
+              <h2>from <span>farm</span></h2>
+              <p>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+              <a href="#" class="a_btn">Shop Now</a>             
+            </div>
+          </div>          
+        </div>
+      </div>
+    </section>
+  <!-- banner part end -->
+
+  <!-- feature part start -->
+    <section id="feature">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 col-md-6 pt-5 text-center">
+            <div class="feat_image">
+              <img src="images/coupon1.png" alt="coupon1">
+            </div>
+            <div class="feat_text">
+              <h3>Discount</h3>
+              <p>Every week new sales</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-md-6 pt-5 text-center">
+            <div class="feat_image">
+              <img src="images/coupon2.png" alt="coupon2">
+            </div>
+            <div class="feat_text">
+              <h3>Support 24/7</h3>
+              <p>Dedicated support</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-md-6 pt-5 text-center">
+            <div class="feat_image">
+              <img src="images/coupon3.png" alt="coupon3">
+            </div>
+            <div class="feat_text">
+              <h3>Free Delivery</h3>
+              <p>For all orders over $99</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-md-6 pt-5 text-center">
+            <div class="feat_image">
+              <img src="images/coupon4.png" alt="coupon4">
+            </div>
+            <div class="feat_text">
+              <h3>Secure Payment</h3>
+              <p>100% Secure payment</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- feature part end -->
+
+  <!-- category part start -->
+  <section id="category" class="d-none d-xxl-block">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Trending Products Category</h2>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-lg-3">
+          <div class="category_menu">
+            <ul>
+              <li><button type="button" data-filter="all" class="btn_bg"><img src="images/category-menu1.png" alt="category-menu1">
+              <span>All Vegetable</span></button></li>
+              <li><button type="button" data-filter=".fruits" class="btn_bg"><img src="images/category-menu2.png" alt="category-menu2">
+                <span>Fruits</span></button></li>
+              <li><button type="button" data-filter=".green_veg" class="btn_bg"><img src="images/category-menu3.png" alt="category-menu3">
+                <span>Green Vegetable</span></button></li>
+              <li><button type="button" data-filter=".onion" class="btn_bg"><img src="images/category-menu4.png" alt="category-menu4">
+                <span>Onion</span></button></li>
+              <li><button type="button" data-filter=".veg" class="btn_bg"><img src="images/category-menu5.png" alt="category-menu5">
+                <span>Vegetable</span></button></li>
+              <li><button type="button" data-filter=".lemon" class="btn_bg"><img src="images/category-menu6.png" alt="category-menu6">
+                <span>Lemon</span></button></li>
+            </ul>             
+          </div>
+          <div class="category_menu_down mt-5">
+            <div class="category_down_text">
+              <h3>Fruits For Live</h3> 
+              <h3>Healthy</h3>
+              <p>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+              <a href="#">Shop Now</a>
+            </div>
+          </div>
+          <div class="category_menu_down mt-5" style="background: url(images/category-down2.png) no-repeat center / cover;">
+            <div class="category_down_text">
+              <h3>Fruits For Live</h3> 
+              <h3>Healthy</h3>
+              <p>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+              <a href="#">Shop Now</a>
+            </div>
+          </div>
+          <div class="trending_down"></div>                                          
+        </div>
+        <div class="col-lg-9">
+          <div class="mixit_main">
+            <div class="row">
+              <div class="col-lg-4 mix green_veg">
+                <div class="category_item mb-4">
+                  <div class="category_image" style="background: url(images/cauliflower.png) no-repeat center / cover;">                                      
+                    <div class="category_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="category_overlay">
+                      <div class="category_overlay_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-lock"></i>
+                        <i class="fa-regular fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="category_text">
+                    <h4>Organic Vegetables</h4>
+                    <h5>$8.00-9.00</h5>
+                  </div>
+                </div>                
+              </div>
+              <div class="col-lg-4 mix fruits">
+                <div class="category_item mb-4">
+                  <div class="category_image" style="background: url(images/malta.png) no-repeat center / cover;">                                      
+                    <div class="category_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="category_overlay">
+                      <div class="category_overlay_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-lock"></i>
+                        <i class="fa-regular fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="category_text">
+                    <h4>Organic Vegetables</h4>
+                    <h5>$8.00-9.00</h5>
+                  </div>
+                </div>                
+              </div>
+              <div class="col-lg-4 mix fruits">
+                <div class="category_item mb-4">
+                  <div class="category_image" style="background: url(images/strawberry.png) no-repeat center / cover;">                                      
+                    <div class="category_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="category_overlay">
+                      <div class="category_overlay_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-lock"></i>
+                        <i class="fa-regular fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="category_text">
+                    <h4>Organic Vegetables</h4>
+                    <h5>$8.00-9.00</h5>
+                  </div>
+                </div>                
+              </div>
+              <div class="col-lg-4 mix fruits">
+                <div class="category_item mb-4">
+                  <div class="category_image" style="background: url(images/orange.png) no-repeat center / cover;">                                      
+                    <div class="category_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="category_overlay">
+                      <div class="category_overlay_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-lock"></i>
+                        <i class="fa-regular fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="category_text">
+                    <h4>Organic Vegetables</h4>
+                    <h5>$8.00-9.00</h5>
+                  </div>
+                </div>                
+              </div>
+              <div class="col-lg-4 mix green_veg">
+                <div class="category_item mb-4">
+                  <div class="category_image" style="background: url(images/papaya.png) no-repeat center / cover;">                                      
+                    <div class="category_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="category_overlay">
+                      <div class="category_overlay_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-lock"></i>
+                        <i class="fa-regular fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="category_text">
+                    <h4>Organic Vegetables</h4>
+                    <h5>$8.00-9.00</h5>
+                  </div>
+                </div>                
+              </div>
+              <div class="col-lg-4 mix veg">
+                <div class="category_item mb-4">
+                  <div class="category_image" style="background: url(images/small_tomato.png) no-repeat center / cover;">                                      
+                    <div class="category_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="category_overlay">
+                      <div class="category_overlay_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-lock"></i>
+                        <i class="fa-regular fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="category_text">
+                    <h4>Organic Vegetables</h4>
+                    <h5>$8.00-9.00</h5>
+                  </div>
+                </div>                
+              </div>
+              <div class="col-lg-4 mix veg">
+                <div class="category_item mb-4">
+                  <div class="category_image" style="background: url(images/brinjal.png) no-repeat center / cover;">                                      
+                    <div class="category_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="category_overlay">
+                      <div class="category_overlay_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-lock"></i>
+                        <i class="fa-regular fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="category_text">
+                    <h4>Organic Vegetables</h4>
+                    <h5>$8.00-9.00</h5>
+                  </div>
+                </div>                
+              </div>
+              <div class="col-lg-4 mix fruits">
+                <div class="category_item mb-4">
+                  <span>-15%</span>
+                  <div class="category_image" style="background: url(images/pomegranet.png) no-repeat center / cover;">                                      
+                    <div class="category_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="category_overlay">
+                      <div class="category_overlay_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-lock"></i>
+                        <i class="fa-regular fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="category_text">
+                    <h4>Organic Vegetables</h4>
+                    <h5>$8.00-9.00</h5>
+                  </div>
+                </div>                
+              </div>
+              <div class="col-lg-4 mix lemon">
+                <div class="category_item mb-4">
+                  <div class="category_image" style="background: url(images/lemon.png) no-repeat center / cover;">                                      
+                    <div class="category_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="category_overlay">
+                      <div class="category_overlay_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-lock"></i>
+                        <i class="fa-regular fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="category_text">
+                    <h4>Organic Vegetables</h4>
+                    <h5>$8.00-9.00</h5>
+                  </div>
+                </div>                
+              </div>
+              <div class="col-lg-4 mix veg">
+                <div class="category_item mb-4">
+                  <span style="background-color: #F47606;">Sold Out</span>
+                  <div class="category_image" style="background: url(images/big_tomato.png) no-repeat center / cover;">                                      
+                    <div class="category_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="category_overlay">
+                      <div class="category_overlay_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-lock"></i>
+                        <i class="fa-regular fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="category_text">
+                    <h4>Organic Vegetables</h4>
+                    <h5>$8.00-9.00</h5>
+                  </div>
+                </div>                
+              </div>
+              <div class="col-lg-4 mix green_veg">
+                <div class="category_item mb-4">
+                  <div class="category_image" style="background: url(images/brookly.png) no-repeat center / cover;">                                      
+                    <div class="category_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="category_overlay">
+                      <div class="category_overlay_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-lock"></i>
+                        <i class="fa-regular fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="category_text">
+                    <h4>Organic Vegetables</h4>
+                    <h5>$8.00-9.00</h5>
+                  </div>
+                </div>                
+              </div>
+              <div class="col-lg-4 mix onion">
+                <div class="category_item mb-4">
+                  <div class="category_image" style="background: url(images/onion.png) no-repeat center / cover;">                                      
+                    <div class="category_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="category_overlay">
+                      <div class="category_overlay_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-lock"></i>
+                        <i class="fa-regular fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="category_text">
+                    <h4>Organic Vegetables</h4>
+                    <h5>$8.00-9.00</h5>
+                  </div>
+                </div>                
+              </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>      
+  </section>
+  <!-- category part end -->
+
+  <!-- flash_deals part start -->
+  <section id="flash_deals">
+    <div class="flash_deals_back">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h5>Flash Deals Of The Week</h5>
+            <h6>Hurry Up And Get 25% Discount</h6>
+            <p>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+            <a href="#" class="a_btn">Shop Now</a>
+            <p id="demo" style="width: 100%;"></p>
+            <span class="time_name">Days</span>
+            <span class="time_name">Hours</span>
+            <span class="time_name">Minutes</span>
+            <span class="time_name sec1">Seconds</span>
+          </div>
+          <div class="col-lg-6">
+            <img src="images/flash deal.png" class="w-100" alt="flash_deals">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- flash_deals part end -->
+
+  <!-- top_rated part start -->
+  <section id="top_rated">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-sm-9 col-md-9 p-0">
+          <img src="images/top rated.jpg" class="w-100" alt="top_rated">
+        </div>
+        <div class="col-lg-6 ms-3 d-none d-lg-block">
+          <div class="row">
+            <div class="col-lg-12">
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link nav_btn active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" 
+                  role="tab" aria-controls="pills-home" aria-selected="true">
+                    <div class="top_rated_btn">
+                      <h3>Top Rated</h3>
+                    </div>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link nav_btn" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" 
+                  role="tab" aria-controls="pills-profile" aria-selected="false">
+                    <div class="top_rated_btn">
+                      <h3>Best Selling</h3>
+                    </div>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link nav_btn" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" 
+                  role="tab" aria-controls="pills-contact" aria-selected="false">
+                    <div class="top_rated_btn">
+                      <h3>On Sale</h3>
+                    </div>
+                </button>
+                </li>            
+              </ul>
+            </div>
+            <div class="col-lg-12 pt-5">
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="top_rated_item mb-4">
+                        <div class="top_rated_image" style="background: url(images/papaya.png) no-repeat center / cover;">                                      
+                          <div class="top_rated_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>                          
+                        </div>
+                        <div class="top_rated_text">
+                          <h4>Organic Vegetables</h4>
+                          <h5>$8.00-9.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="top_rated_item mb-4">
+                        <div class="top_rated_image" style="background: url(images/orange.png) no-repeat center / cover;">                                      
+                          <div class="top_rated_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>                          
+                        </div>
+                        <div class="top_rated_text">
+                          <h4>Organic Vegetables</h4>
+                          <h5>$8.00-9.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="top_rated_item mb-4">
+                        <div class="top_rated_image" style="background: url(images/small_tomato.png) no-repeat center / cover;">                                      
+                          <div class="top_rated_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>                          
+                        </div>
+                        <div class="top_rated_text">
+                          <h4>Organic Vegetables</h4>
+                          <h5>$8.00-9.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="top_rated_item mb-4">
+                        <div class="top_rated_image" style="background: url(images/custard.png) no-repeat center / cover;">                                      
+                          <div class="top_rated_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>                          
+                        </div>
+                        <div class="top_rated_text">
+                          <h4>Organic Vegetables</h4>
+                          <h5>$8.00-9.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="top_rated_item mb-4">
+                        <div class="top_rated_image" style="background: url(images/ginger.png) no-repeat center / cover;">                                      
+                          <div class="top_rated_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>                          
+                        </div>
+                        <div class="top_rated_text">
+                          <h4>Organic Vegetables</h4>
+                          <h5>$8.00-9.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="top_rated_item mb-4">
+                        <div class="top_rated_image" style="background: url(images/brinjal.png) no-repeat center / cover;">                                      
+                          <div class="top_rated_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>                          
+                        </div>
+                        <div class="top_rated_text">
+                          <h4>Organic Vegetables</h4>
+                          <h5>$8.00-9.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="top_rated_item mb-4">
+                        <div class="top_rated_image" style="background: url(images/orange.png) no-repeat center / cover;">                                      
+                          <div class="top_rated_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>                          
+                        </div>
+                        <div class="top_rated_text">
+                          <h4>Organic Vegetables</h4>
+                          <h5>$8.00-9.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="top_rated_item mb-4">
+                        <div class="top_rated_image" style="background: url(images/small_tomato.png) no-repeat center / cover;">                                      
+                          <div class="top_rated_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>                          
+                        </div>
+                        <div class="top_rated_text">
+                          <h4>Organic Vegetables</h4>
+                          <h5>$8.00-9.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="top_rated_item mb-4">
+                        <div class="top_rated_image" style="background: url(images/custard.png) no-repeat center / cover;">                                      
+                          <div class="top_rated_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>                          
+                        </div>
+                        <div class="top_rated_text">
+                          <h4>Organic Vegetables</h4>
+                          <h5>$8.00-9.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="top_rated_item mb-4">
+                        <div class="top_rated_image" style="background: url(images/ginger.png) no-repeat center / cover;">                                      
+                          <div class="top_rated_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>                          
+                        </div>
+                        <div class="top_rated_text">
+                          <h4>Organic Vegetables</h4>
+                          <h5>$8.00-9.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="top_rated_item mb-4">
+                        <div class="top_rated_image" style="background: url(images/brinjal.png) no-repeat center / cover;">                                      
+                          <div class="top_rated_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>                          
+                        </div>
+                        <div class="top_rated_text">
+                          <h4>Organic Vegetables</h4>
+                          <h5>$8.00-9.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="top_rated_item mb-4">
+                        <div class="top_rated_image" style="background: url(images/papaya.png) no-repeat center / cover;">                                      
+                          <div class="top_rated_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>                          
+                        </div>
+                        <div class="top_rated_text">
+                          <h4>Organic Vegetables</h4>
+                          <h5>$8.00-9.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="top_rated_item mb-4">
+                        <div class="top_rated_image" style="background: url(images/small_tomato.png) no-repeat center / cover;">                                      
+                          <div class="top_rated_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>                          
+                        </div>
+                        <div class="top_rated_text">
+                          <h4>Organic Vegetables</h4>
+                          <h5>$8.00-9.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="top_rated_item mb-4">
+                        <div class="top_rated_image" style="background: url(images/custard.png) no-repeat center / cover;">                                      
+                          <div class="top_rated_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>                          
+                        </div>
+                        <div class="top_rated_text">
+                          <h4>Organic Vegetables</h4>
+                          <h5>$8.00-9.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="top_rated_item mb-4">
+                        <div class="top_rated_image" style="background: url(images/ginger.png) no-repeat center / cover;">                                      
+                          <div class="top_rated_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>                          
+                        </div>
+                        <div class="top_rated_text">
+                          <h4>Organic Vegetables</h4>
+                          <h5>$8.00-9.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="top_rated_item mb-4">
+                        <div class="top_rated_image" style="background: url(images/brinjal.png) no-repeat center / cover;">                                      
+                          <div class="top_rated_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>                          
+                        </div>
+                        <div class="top_rated_text">
+                          <h4>Organic Vegetables</h4>
+                          <h5>$8.00-9.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="top_rated_item mb-4">
+                        <div class="top_rated_image" style="background: url(images/papaya.png) no-repeat center / cover;">                                      
+                          <div class="top_rated_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>                          
+                        </div>
+                        <div class="top_rated_text">
+                          <h4>Organic Vegetables</h4>
+                          <h5>$8.00-9.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="top_rated_item mb-4">
+                        <div class="top_rated_image" style="background: url(images/orange.png) no-repeat center / cover;">                                      
+                          <div class="top_rated_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>                          
+                        </div>
+                        <div class="top_rated_text">
+                          <h4>Organic Vegetables</h4>
+                          <h5>$8.00-9.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>                             
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- top_rated part end -->
+
+    <!-- latest part start -->
+    <section id="latest">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-6 d-none d-lg-block">
+            <div class="row">
+              <div class="col-lg-12">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link nav_btn active" id="pills-home2-tab" data-bs-toggle="pill" data-bs-target="#pills-home2" 
+                    type="button" role="tab" aria-controls="pills-home2" aria-selected="true">
+                      <div class="latest_btn">
+                        <h3>Latest Item</h3>
+                      </div>
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link nav_btn" id="pills-profile2-tab" data-bs-toggle="pill" data-bs-target="#pills-profile2" 
+                    type="button" role="tab" aria-controls="pills-profile2" aria-selected="false">
+                      <div class="latest_btn">
+                        <h3>Trendy Item</h3>
+                      </div>
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link nav_btn" id="pills-contact2-tab" data-bs-toggle="pill" data-bs-target="#pills-contact2" 
+                    role="tab" aria-controls="pills-contact2" aria-selected="false">
+                      <div class="latest_btn">
+                        <h3>Top Sale</h3>
+                      </div>
+                  </button>
+                  </li>            
+                </ul>
+              </div>
+              <div class="col-lg-12 pt-5">
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-home2" role="tabpanel" aria-labelledby="pills-home2-tab" tabindex="0">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="latest_item mb-4">
+                          <div class="latest_image" style="background: url(images/papaya.png) no-repeat center / cover;">                                      
+                            <div class="latest_icon">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>                          
+                          </div>
+                          <div class="latest_text">
+                            <h4>Organic Vegetables</h4>
+                            <h5>$8.00-9.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="latest_item mb-4">
+                          <div class="latest_image" style="background: url(images/orange.png) no-repeat center / cover;">                                      
+                            <div class="latest_icon">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>                          
+                          </div>
+                          <div class="latest_text">
+                            <h4>Organic Vegetables</h4>
+                            <h5>$8.00-9.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="latest_item mb-4">
+                          <div class="latest_image" style="background: url(images/small_tomato.png) no-repeat center / cover;">                                      
+                            <div class="latest_icon">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>                          
+                          </div>
+                          <div class="latest_text">
+                            <h4>Organic Vegetables</h4>
+                            <h5>$8.00-9.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="latest_item mb-4">
+                          <div class="latest_image" style="background: url(images/custard.png) no-repeat center / cover;">                                      
+                            <div class="latest_icon">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>                          
+                          </div>
+                          <div class="latest_text">
+                            <h4>Organic Vegetables</h4>
+                            <h5>$8.00-9.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="latest_item mb-4">
+                          <div class="latest_image" style="background: url(images/ginger.png) no-repeat center / cover;">                                      
+                            <div class="latest_icon">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>                          
+                          </div>
+                          <div class="latest_text">
+                            <h4>Organic Vegetables</h4>
+                            <h5>$8.00-9.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="latest_item mb-4">
+                          <div class="latest_image" style="background: url(images/brinjal.png) no-repeat center / cover;">                                      
+                            <div class="latest_icon">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>                          
+                          </div>
+                          <div class="latest_text">
+                            <h4>Organic Vegetables</h4>
+                            <h5>$8.00-9.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-profile2" role="tabpanel" aria-labelledby="pills-profile2-tab" tabindex="0">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="latest_item mb-4">
+                          <div class="latest_image" style="background: url(images/orange.png) no-repeat center / cover;">                                      
+                            <div class="latest_icon">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>                          
+                          </div>
+                          <div class="latest_text">
+                            <h4>Organic Vegetables</h4>
+                            <h5>$8.00-9.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="latest_item mb-4">
+                          <div class="latest_image" style="background: url(images/small_tomato.png) no-repeat center / cover;">                                      
+                            <div class="latest_icon">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>                          
+                          </div>
+                          <div class="latest_text">
+                            <h4>Organic Vegetables</h4>
+                            <h5>$8.00-9.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="latest_item mb-4">
+                          <div class="latest_image" style="background: url(images/custard.png) no-repeat center / cover;">                                      
+                            <div class="latest_icon">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>                          
+                          </div>
+                          <div class="latest_text">
+                            <h4>Organic Vegetables</h4>
+                            <h5>$8.00-9.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="latest_item mb-4">
+                          <div class="latest_image" style="background: url(images/ginger.png) no-repeat center / cover;">                                      
+                            <div class="latest_icon">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>                          
+                          </div>
+                          <div class="latest_text">
+                            <h4>Organic Vegetables</h4>
+                            <h5>$8.00-9.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="latest_item mb-4">
+                          <div class="latest_image" style="background: url(images/brinjal.png) no-repeat center / cover;">                                      
+                            <div class="latest_icon">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>                          
+                          </div>
+                          <div class="latest_text">
+                            <h4>Organic Vegetables</h4>
+                            <h5>$8.00-9.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="latest_item mb-4">
+                          <div class="latest_image" style="background: url(images/papaya.png) no-repeat center / cover;">                                      
+                            <div class="latest_icon">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>                          
+                          </div>
+                          <div class="latest_text">
+                            <h4>Organic Vegetables</h4>
+                            <h5>$8.00-9.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact2-tab" tabindex="0">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="latest_item mb-4">
+                          <div class="latest_image" style="background: url(images/small_tomato.png) no-repeat center / cover;">                                      
+                            <div class="latest_icon">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>                          
+                          </div>
+                          <div class="latest_text">
+                            <h4>Organic Vegetables</h4>
+                            <h5>$8.00-9.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="latest_item mb-4">
+                          <div class="latest_image" style="background: url(images/custard.png) no-repeat center / cover;">                                      
+                            <div class="latest_icon">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>                          
+                          </div>
+                          <div class="latest_text">
+                            <h4>Organic Vegetables</h4>
+                            <h5>$8.00-9.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="latest_item mb-4">
+                          <div class="latest_image" style="background: url(images/ginger.png) no-repeat center / cover;">                                      
+                            <div class="latest_icon">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>                          
+                          </div>
+                          <div class="latest_text">
+                            <h4>Organic Vegetables</h4>
+                            <h5>$8.00-9.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="latest_item mb-4">
+                          <div class="latest_image" style="background: url(images/brinjal.png) no-repeat center / cover;">                                      
+                            <div class="latest_icon">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>                          
+                          </div>
+                          <div class="latest_text">
+                            <h4>Organic Vegetables</h4>
+                            <h5>$8.00-9.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="latest_item mb-4">
+                          <div class="latest_image" style="background: url(images/papaya.png) no-repeat center / cover;">                                      
+                            <div class="latest_icon">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>                          
+                          </div>
+                          <div class="latest_text">
+                            <h4>Organic Vegetables</h4>
+                            <h5>$8.00-9.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="latest_item mb-4">
+                          <div class="latest_image" style="background: url(images/orange.png) no-repeat center / cover;">                                      
+                            <div class="latest_icon">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>                          
+                          </div>
+                          <div class="latest_text">
+                            <h4>Organic Vegetables</h4>
+                            <h5>$8.00-9.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>                             
+          </div>
+          <div class="col-lg-4 col-sm-9 col-md-9 p-0">
+            <img src="images/latest.jpg" class="w-100" alt="latest">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- latest part end -->
+
+    <!-- testimonial part start -->
+    <section id="testimonial">
+      <i class="fa-solid fa-arrow-right next1 d-none d-xxl-block"></i>
+      <i class="fa-solid fa-arrow-left prev1 d-none d-xxl-block"></i>
+      <div class="testimonial_back">
+        <div class="container">          
+          <div class="row justify-content-center">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4 col-md-9 pt-5">
+              <h2>Testimonial</h2>
+              <img src="images/testi_comma.png" style="padding-top: 10px;" alt="testi_comma">
+              <div class="testimonial_icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="testimonial_main">
+                <div class="testimonial_item">
+                  <p class="tes_para1">Nulla quis lorem ut libero malesuada feugiat. Nulla quis lorem ut libero malesuada feugiat.                      
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="testimonial_item">
+                  <p class="tes_para1">Nulla quis lorem ut libero malesuada feugiat. Nulla quis lorem ut libero malesuada feugiat.                      
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="testimonial_item">
+                  <p class="tes_para1">Nulla quis lorem ut libero malesuada feugiat. Nulla quis lorem ut libero malesuada feugiat.                      
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>              
+              <div class="testimonial_down">
+                <div class="testimonial_image">
+                  <img src="images/testi_small.png" alt="testi_small">
+                </div>
+                <div class="testimonial_text">
+                  <h4>Flora Smith</h4>
+                  <p style="margin-top: -5px;">UI Designer</p>
+                </div>
+              </div>            
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-4 col-md-9 pt-5"><img src="images/testi_big.png" class="w-100" alt="testi_big"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial part end -->
+
+    <!-- salad part start -->
+    <section id="salad">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 pt-5">
+            <div class="salad_item">
+              <div class="salad_image">
+                <img src="images/salad1.jpg" class="w-100" alt="salad1">
+              </div>
+              <div class="salad_num_text pt-3">
+                <div class="salad_btn text-center">
+                  <h3 style="padding-top: 10px;">16</h3>
+                  <h3 style="margin-top: -5px;">02</h3>
+                </div> 
+                <div class="salad_text">
+                  <h4>Green Onion Knife and</h4> 
+                  <h4>salad placed</h4>
+                  <p>Nulla quis lorem ut libero malesuada feugiat. Nulla quis lorem ut libero malesuada feugiat. </p>
+                  <a href="#">Read More</a>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>            
+          </div>
+          <div class="col-lg-4 col-md-6 pt-5">
+            <div class="salad_item">
+              <div class="salad_image">
+                <img src="images/salad2.jpg" class="w-100" alt="salad2">
+              </div>
+              <div class="salad_num_text pt-3">
+                <div class="salad_btn text-center">
+                  <h3 style="padding-top: 10px;">16</h3>
+                  <h3 style="margin-top: -5px;">02</h3>
+                </div> 
+                <div class="salad_text">
+                  <h4>Green Onion Knife and</h4> 
+                  <h4>salad placed</h4>
+                  <p>Nulla quis lorem ut libero malesuada feugiat. Nulla quis lorem ut libero malesuada feugiat. </p>
+                  <a href="#">Read More</a>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>            
+          </div>
+          <div class="col-lg-4 col-md-6 pt-5">
+            <div class="salad_item">
+              <div class="salad_image">
+                <img src="images/salad3.jpg" class="w-100" alt="salad3">
+              </div>
+              <div class="salad_num_text pt-3">
+                <div class="salad_btn text-center">
+                  <h3 style="padding-top: 10px;">16</h3>
+                  <h3 style="margin-top: -5px;">02</h3>
+                </div> 
+                <div class="salad_text">
+                  <h4>Green Onion Knife and</h4> 
+                  <h4>salad placed</h4>
+                  <p>Nulla quis lorem ut libero malesuada feugiat. Nulla quis lorem ut libero malesuada feugiat. </p>
+                  <a href="#">Read More</a>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- salad part end -->
+
+    <!-- footer part start -->
+    <footer id="footer" style="background-color: #F8F8F8;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-3 col-sm-6 col-md-6 pt-5">
+            <div class="footer_one">
+              <a href="#"><h6 style="color: #477018;">Organic</h6></a>
+              <p>Calista Wise 7292 Disctum Av.</p>
+              <p>New York.USA</p>
+              <p>(02)-800-5145-88</p>
+              <p>info@gmail.com</p>
+              <p>www.website.com</p>            
+            </div>                        
+          </div>
+          <div class="col-lg-2 col-sm-6 col-md-6 pt-5">
+            <div class="footer_two">
+              <h4 style="color: #222;">Customer Service</h4>
+              <ul>
+                <li><p>Contact us</p></li>
+                <li><p>Track your order</p></li>
+                <li><p>Return policy</p></li>
+                <li><p>Delivery Information</p></li>
+                <li><p>Help & FAQ</p></li>
+                <li><p style="padding-bottom: 0;">Warranty & Repair</p></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-6 col-md-6 pt-5">
+            <div class="footer_two">
+              <h4 style="color: #222;">Categories</h4>
+              <ul>
+                <li><p>Fruitls & Vegetables</p></li>                  
+                <li><p>Dairy Products</p></li>
+                <li><p>Package Foods</p></li>
+                <li><p>Beverage</p></li>
+                <li><p style="padding-bottom: 0;">Health & Wellness</p></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-md-6 pt-5">
+            <div class="footer_three">
+              <h4 style="color: #222;">Newsletter</h4>
+              <p>Signup and get a voucher of worth $250.00</p>
+              <form action="">
+                <div class="input_block">
+                  <input type="email" class="form-control my_input" id="exampleInputEmail1" aria-describedby="emailHelp" 
+                  placeholder="Your email address"><button type="submit" class="btn btn-primary my_btn">Send</button> 
+                </div>                            
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer part end -->
+    
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>

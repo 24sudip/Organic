@@ -1,0 +1,62 @@
+
+/* latBlog part start */
+#latBlog{
+    padding-top: 130px;
+}
+.latBlog_item{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.latBlog_text{
+    padding-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 75px;
+    border-bottom: 2px solid gray;
+    a{
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        color: #676767;
+        padding-left: 10px;
+    }
+    i{
+        color: #676767;
+    }
+    .lb_h3{
+        padding-top: 10px;
+    }
+}
+.lb_icon{
+    padding-left: 20px;
+}
+.latBlog_inner{
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.latBlog_down{
+    i{
+        padding: 30px 0;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+    span{
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        color: #676767;
+    }
+    .lb_anchor{
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+        color: #F47606;
+        padding-left: 110px;
+    }
+}
+/* latBlog part end */

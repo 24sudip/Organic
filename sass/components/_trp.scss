@@ -1,0 +1,24 @@
+
+/* trp part start */
+#trp{
+    padding-top: 130px;
+    .trending_text{
+        .trending_icon{
+            padding-top: 30px;
+        }
+    }
+    
+}
+.trp_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trp_right{
+    color: #676767;
+    a{
+        color: #676767;
+        padding-right: 10px;
+    }
+}
+/* trp part end */

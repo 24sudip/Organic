@@ -1,0 +1,57 @@
+
+/* featPro part start */
+#featPro{
+    padding-top: 130px;
+    .trending_text{
+        h4{
+            margin-top: -3px;
+        }
+    }
+    .trending_icon{
+        padding-top: 30px;
+    }
+}
+.featPro_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.featPro_right{
+    color: #F47606;
+    a{
+        color: #F47606;
+    }
+}
+.featPro_image{
+    position: relative;
+    &:hover .featPro_icon{
+        opacity: 1;
+    }
+}
+.featPro_icon{
+    position: absolute;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    opacity: 0;
+    transition: 0.5s;
+    i{
+        height: 46px;
+        width: 46px;
+        line-height: 46px;
+        text-align: center;
+        color: #222;
+        background-color: rgba(128, 128, 128, 0.537);
+        margin: 0 1px;
+        display: inline-block;
+        border-radius: 50%;
+        font-size: 23px;
+        transition: 0.5s;
+        &:hover{
+            background-color: #F47606;
+            color: #fff;
+        }
+    }
+}
+/* featPro part end */
