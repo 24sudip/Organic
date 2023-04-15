@@ -2179,6 +2179,7 @@ header p {
 }
 .result_price h3 {
   position: relative;
+  margin-bottom: 40px;
 }
 .result_price h3::after {
   content: "";
@@ -2198,33 +2199,15 @@ header p {
   height: 8px;
   border-radius: 50%;
   background-color: #477018;
+  display: none;
 }
 .result_price ul {
-  padding-top: 50px;
+  padding-top: 20px;
   list-style: disc;
   padding-left: 15px;
 }
 .result_price ul li p {
   position: relative;
-}
-.result_price ul li p::after {
-  content: "";
-  position: absolute;
-  top: -18px;
-  right: 20px;
-  width: 249px;
-  height: 2px;
-  background-color: #477018;
-}
-.result_price ul li p::before {
-  content: "";
-  position: absolute;
-  top: -21px;
-  right: 17px;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background-color: #477018;
 }
 
 .result_price2 {

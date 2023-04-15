@@ -139,6 +139,7 @@
     margin-top: 40px;
     h3{
         position: relative;
+        margin-bottom: 40px;
         &::after{
             content: '';
             position: absolute;
@@ -157,34 +158,16 @@
             height: 8px;
             border-radius: 50%;
             background-color: #477018;
+            display: none;
         }
     }
     ul{
-        padding-top: 50px;
+        padding-top: 20px;
         list-style: disc;
         padding-left: 15px;
         li{
             p{
                 position: relative;
-                &::after{
-                    content: "";
-	                position: absolute;
-	                top: -18px;
-	                right: 20px;
-	                width: 249px;
-	                height: 2px;
-	                background-color: #477018;
-                }
-                &::before{
-                    content: '';
-                    position: absolute;
-                    top: -21px;
-                    right: 17px;
-                    width: 8px;
-                    height: 8px;
-                    border-radius: 50%;
-                    background-color: #477018;
-                }
             }
         }
     }
